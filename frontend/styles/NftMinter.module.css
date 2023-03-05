@@ -7,9 +7,10 @@
     border: solid #cfd9f0;
     border-width: 1px;
     border-radius: 16px;
-    margin: 1.5rem;
+    margin: 1rem;
     width: 900px;
     padding: 0.125rem;
+    justify-content: center;
   }
   
   .flex_container {
@@ -17,6 +18,8 @@
   }
   
   .flex_container_1st_half {
+    display: flex;
+    align-items: center;
     border-radius: 16px;
     margin: 0.5rem;
     width: '40%';
@@ -34,17 +37,17 @@
   
   .nft_image {
     object-fit: cover;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     border-radius: 6px;
   }
   
   .flex_container_2nd_half {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     margin-top: 3rem;
     border-radius: 16px;
-    width: '60%';
+    width: 60%;
   }
   
   .nft_details {
@@ -56,8 +59,10 @@
   .nft_title {
     font-size: 1.3rem;
     font-weight: 600;
+    margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     color: white;
+    text-align: center;
   }
   
   .button {
