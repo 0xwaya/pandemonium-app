@@ -1,0 +1,42 @@
+{
+  "name": "pandemonium-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next link",
+    "marketplace": "npx create-web3-dapp marketplace"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.8.1",
+    "alchemy-sdk": "^2.3.0",
+    "lite-server": "^2.6.1",
+    "next": "^13.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "start": "^5.1.0",
+    "wagmi": "^0.11.7"
+  },
+  "devDependencies": {
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.3"
+  },
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xwaya/pandemonium-app.git"
+  },
+  "keywords": [
+    "macaws",
+    "web3"
+  ],
+  "author": "@wayalabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0xwaya/pandemonium-app/issues"
+  },
+  "homepage": "https://github.com/0xwaya/pandemonium-app#readme",
+  "description": ""
+}
