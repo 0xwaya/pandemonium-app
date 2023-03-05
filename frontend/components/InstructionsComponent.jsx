@@ -9,8 +9,8 @@ export default function InstructionsComponent() {
 					PANDEMONIUM<span>SQUAD</span>
 				</h1>
 				<p>
-					Get started by editing this page in{" "}
-					<span>/pages/index.js</span>
+					Save Macaws while learning Web3{" "}
+					<span>pandemonium.nft</span>
 				</p>
 			</header>
 
@@ -21,7 +21,7 @@ export default function InstructionsComponent() {
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Add Components</p>
+						<p>LORO COIN</p>
 					</div>
 				</a>
 				<a
@@ -30,21 +30,9 @@ export default function InstructionsComponent() {
 				>
 					<div className={styles.button}>
 						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Explore Templates</p>
+						<p>LORO Lottery</p>
 					</div>
 				</a>
-				<a
-					target={"_blank"}
-					href={"https://docs.alchemy.com/docs/create-web3-dapp"}
-				>
-					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/file-eye-01-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Visit Docs</p>
-					</div>
-				</a>
-			</div>
-			<div>
-				<p>Made with 💙 by the AlchemyFam</p>
 			</div>
 		</div>
 	);
