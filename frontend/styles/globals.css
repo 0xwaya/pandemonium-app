@@ -2,9 +2,10 @@
 
 html,
 body {
-	background-color: black;
-	font-family: 'Rubik';
+	background: linear-gradient(to bottom, #000000, #1a1a1a);	font-family: 'Rubik';
 	font-weight: normal;
+	margin: 0;
+    padding: 0;
 }
 h1{
 	margin-bottom: 1rem;

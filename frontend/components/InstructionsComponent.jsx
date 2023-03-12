@@ -33,6 +33,15 @@ export default function InstructionsComponent() {
 						<p>LORO Lottery</p>
 					</div>
 				</a>
+				<a
+					target={"_blank"}
+					href={"../components/NftMinter.jsx"}
+				>
+					<div className={styles.button}>
+						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
+						<p>Mint MACAW NFT</p>
+					</div>
+				</a>
 			</div>
 		</div>
 	);
