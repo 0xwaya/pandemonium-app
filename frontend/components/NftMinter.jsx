@@ -67,9 +67,9 @@ export default function NftMinter({
           <p>See transaction on </p>
           <a
             className={styles.tx_hash}
-            href={`https://mumbai.polygonscan.com/tx/${txHash}`}
+            href={`https:goerli.etherscan.io/tx/${txHash}`}
           >
-            Mumbai Polygon Scan
+           goerli Etherscan
           </a>
         </div>
       )}

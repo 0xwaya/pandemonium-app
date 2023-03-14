@@ -9,7 +9,7 @@ export default function InstructionsComponent() {
 					PANDEMONIUM<span>SQUAD</span>
 				</h1>
 				<p>
-					Save Macaws while learning Web3{" "}
+					Spreading web3 in Latin America {" "}
 					<span>pandemonium.nft</span>
 				</p>
 			</header>
@@ -17,31 +17,34 @@ export default function InstructionsComponent() {
 			<div className={styles.buttons_container}>
 				<a
 					target={"_blank"}
-					href={"https://createweb3dapp.alchemy.com/#components"}
+					href={"./"}
 				>
 					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
+						{/*<img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} />*/}
 						<p>LORO COIN</p>
 					</div>
 				</a>
 				<a
 					target={"_blank"}
-					href={"https://createweb3dapp.alchemy.com/#templates"}
+					href={"./"}
 				>
 					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>LORO Lottery</p>
+						{/*<img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} />*/}
+						<p>lottery</p>
 					</div>
 				</a>
 				<a
 					target={"_blank"}
-					href={"../components/NftMinter.jsx"}
+					href={"./pages/Minter.jsx"}
 				>
 					<div className={styles.button}>
-						{/* <img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} /> */}
-						<p>Mint MACAW NFT</p>
+						{/*<img src="https://static.alchemyapi.io/images/cw3d/Icon%20Medium/lightning-square-contained-m.svg" width={"20px"} height={"20px"} />*/}
+						<p>MINT NFT</p>
 					</div>
 				</a>
+			</div>
+			<div>
+				<p>built with Alchemy-SDK 🦜 by @wayalabs</p>
 			</div>
 		</div>
 	);
