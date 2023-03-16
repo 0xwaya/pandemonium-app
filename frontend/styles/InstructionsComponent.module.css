@@ -87,11 +87,9 @@
   justify-content: center;
   align-items: center;
   gap: 12px;
-
   width: 392px;
   height: 76px;
   padding: 24px 32px;
-  
   background-color: rgb(107,142,35);
   border: 1px solid #4E4E4E;
   border-radius: 12px;
