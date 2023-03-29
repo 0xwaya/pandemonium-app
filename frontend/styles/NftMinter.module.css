@@ -1,105 +1,97 @@
 .main_container {
-    display: flex;
-    justify-content: center;
-    
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
+.sub_container {
+  border: solid #cfd9f0;
+  border-width: 1px;
+  border-radius: 16px;
+  margin: 2rem;
+  width: 900px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nft_card {
+  display: grid;
+  grid-template-columns: 40% auto;
+  border-radius: 16px;
+  background-color: black;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nft_image_container {
+  border-radius: 6px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nft_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.nft_details {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.nft_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.nft_text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.button {
+  background-color: rgb(0, 98, 255);
+  padding: 1rem;
+  border-radius: 6px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.transaction_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+  margin-top: 2rem;
+}
+
+.tx_hash {
+  color: rgb(0, 98, 255);
+}
+
+.isMinting {
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 560px) {
   .sub_container {
-    border: solid #cfd9f0;
-    border-width: 1px;
-    border-radius: 16px;
-    margin: 1rem;
-    width: 900px;
-    padding: 0.125rem;
-    justify-content: center;
-  }
-  
-  .flex_container {
-    display: flex;
-  }
-  
-  .flex_container_1st_half {
-    display: flex;
-    align-items: center;
-    border-radius: 16px;
-    margin: 0.5rem;
-    width: '40%';
-    background: 'black';
-  }
-  
-  .nft_image_container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    height: 100%;
-    border-radius: 6px;
-  }
-  
-  .nft_image {
-    object-fit: cover;
-    width: 30%;
-    height: 30%;
-    border-radius: 6px;
-  }
-  
-  .flex_container_2nd_half {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    border-radius: 16px;
-    width: 60%;
-  }
-  
-  .nft_details {
-    margin-left: 16px;
-  }
-  .nft_text {
-  }
-  
-  .nft_title {
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    color: white;
-    text-align: center;
-  }
-  
-  .button {
-    background-color: rgb(0, 98, 255);
-    padding: 0.3rem 2rem;
-
-    border-radius: 6px;
-
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
-    
-  }
-  
-  .transaction_box {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    column-gap: 5px;
+    padding: 1rem;
+    margin: 1rem;
   }
-  .tx_hash {
-    color: rgb(0, 98, 255);
-  }
-  
-  .isMinting {
-    background-color: lightgray;
-  }
-  
-  @media screen and (max-width: 560px) {
-    .page_container {
-      width: 100%;
-      padding: 0 1rem;
-    }
-  }
+}
